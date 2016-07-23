@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>タイトル:</strong>
   <%= @idea.name %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>メッセージ</strong>
   <%= @idea.description %>
 </p>
 
 <p>
-  <strong>Picture:</strong>
+  <strong>写真:</strong>
   <%= image_tag(@idea.picture_url, width: 600) if @idea.picture.present? %>
 </p>
 
